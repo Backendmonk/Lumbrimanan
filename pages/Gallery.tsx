@@ -15,7 +15,7 @@ const Gallery = () => {
     { src: 'pages/src/gmbrhl1.jpg', category: 'farm',  },
     { src: 'https://picsum.photos/seed/product2/800/600', category: 'product',  },
     { src: 'https://picsum.photos/seed/activity2/800/600', category: 'activity', },
-    { src: 'pages/src/gmbrhl3.jpg', category: 'farm', },
+    { src: 'pages/src/gmbrhl3.jpg', category: 'farm',},
     { src: 'https://picsum.photos/seed/product3/800/600', category: 'product', },
     { src: 'https://picsum.photos/seed/activity3/800/600', category: 'activity',},
     { src: 'https://picsum.photos/seed/farm4/800/600', category: 'farm', },
@@ -104,7 +104,7 @@ const Gallery = () => {
             >
               <img 
                 src={img.src} 
-                alt={img.alt} 
+                 
                 className="w-full h-full object-cover transition duration-700 group-hover:scale-110"
                 loading="lazy"
               />
@@ -114,7 +114,7 @@ const Gallery = () => {
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p className="text-white text-sm font-medium truncate">{img.alt}</p>
+                <p className="text-white text-sm font-medium truncate"></p>
               </div>
             </div>
           ))}
