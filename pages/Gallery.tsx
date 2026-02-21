@@ -10,16 +10,16 @@ const Gallery = () => {
   // Placeholder data - in production these would be real assets
   const images = [
     { src: 'pages/src/gmbrhl2.jpg', category: 'farm',  },
-    { src: 'https://picsum.photos/seed/product1/800/800', category: 'product',  },
-    { src: 'https://picsum.photos/seed/activity1/800/600', category: 'activity',  },
+    { src: 'pages/src/btl1.jpg', category: 'product',  },
+    { src: 'pages/src/kg1.jpg', category: 'activity',  },
     { src: 'pages/src/gmbrhl1.jpg', category: 'farm',  },
-    { src: 'https://picsum.photos/seed/product2/800/600', category: 'product',  },
-    { src: 'https://picsum.photos/seed/activity2/800/600', category: 'activity', },
+    { src: 'pages/src/pc1.jpg', category: 'product',  },
+    { src: 'pages/src/kg2.jpg', category: 'activity', },
     { src: 'pages/src/gmbrhl3.jpg', category: 'farm',},
-    { src: 'https://picsum.photos/seed/product3/800/600', category: 'product', },
-    { src: 'https://picsum.photos/seed/activity3/800/600', category: 'activity',},
-    { src: 'https://picsum.photos/seed/farm4/800/600', category: 'farm', },
-    { src: 'https://picsum.photos/seed/product4/800/600', category: 'product', },
+    { src: 'pages/src/pc2.jpg', category: 'product', },
+    { src: 'pages/src/kg3.jpg', category: 'activity',},
+    { src: 'pages/src/img3.jpg', category: 'farm', },
+    { src: 'pages/src/homeKemurnian.jpg', category: 'product', },
     { src: 'https://picsum.photos/seed/activity4/800/600', category: 'activity',  },
   ];
 

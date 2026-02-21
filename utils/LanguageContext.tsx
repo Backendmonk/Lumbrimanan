@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, PropsWithChildren, useEffect } from 'react';
 
-type Language = 'id' | 'en' | 'ban';
+type Language = 'id' | 'en' ;
 
 interface LanguageContextType {
   lang: Language;
@@ -21,7 +21,7 @@ export const LanguageProvider = ({ children }: PropsWithChildren) => {
   const toggleLang = () => {
     setLang((prev) => {
       if (prev === 'id') return 'en';
-      if (prev === 'en') return 'ban';
+      if (prev === 'en') return 'id';
       return 'id';
     });
   };
@@ -29,7 +29,6 @@ export const LanguageProvider = ({ children }: PropsWithChildren) => {
   // Helper with optional Balinese fallback (defaults to ID if BAN not provided)
   const t = (id: string, en: string, ban?: string) => {
     if (lang === 'en') return en;
-    if (lang === 'ban') return ban || id; // Fallback to ID if Balinese trans missing
     return id;
   };
 
