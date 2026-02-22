@@ -128,7 +128,7 @@ const Home = () => {
                
                <div className="relative z-10" style={{ transform: `translateY(${scrollY * -0.05}px)` }}>
                  <img 
-                    src="src/pages/src/produk1.png " 
+                    src="produk1.png " 
                     alt="Lumbrimanan Bottle" 
                    className="w-full max-w-md drop-shadow-2xl hover:scale-105 transition duration-500 ease-in-out relative z-10"
                  />
@@ -236,7 +236,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-16">
             <div className="md:w-1/2 relative">
                <div className="absolute inset-0 bg-emerald-100 rounded-full blur-3xl opacity-30 transform scale-90"></div>
-               <img src="src/pages/src/homeKemurnian.jpg" alt="Lumbrimanan Solution" className="relative z-10 w-full rounded-2xl shadow-2xl" />
+               <img src="homeKemurnian.jpg" alt="Lumbrimanan Solution" className="relative z-10 w-full rounded-2xl shadow-2xl" />
             </div>
             
             <div className="md:w-1/2">
@@ -348,7 +348,7 @@ const Home = () => {
               <div className="relative">
                 <div className="absolute inset-0 border border-stone-700 transform translate-x-4 translate-y-4 rounded-lg"></div>
                 <img 
-                  src="src/pages/src/niluhkartini.jpeg" 
+                  src="niluhkartini.jpeg" 
                   alt="Prof. Dr. Ir. Ni Luh Kartini" 
                   className="rounded-lg shadow-2xl relative z-10 w-64 md:w-80 hover:grayscale-0 transition duration-500"
                 />

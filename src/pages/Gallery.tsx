@@ -9,17 +9,17 @@ const Gallery = () => {
 
   // Placeholder data - in production these would be real assets
   const images = [
-    { src: 'src/pages/src/gmbrhl2.jpg', category: 'farm',  },
-    { src: 'src/pages/src/btl1.jpg', category: 'product',  },
-    { src: 'src/pages/src/kg1.jpg', category: 'activity',  },
-    { src: 'src/pages/src/gmbrhl1.jpg', category: 'farm',  },
-    { src: 'src/pages/src/pc1.jpg', category: 'product',  },
-    { src: 'src/pages/src/kg2.jpg', category: 'activity', },
-    { src: 'src/pages/src/gmbrhl3.jpg', category: 'farm',},
-    { src: 'src/pages/src/pc2.jpg', category: 'product', },
-    { src: 'src/pages/src/kg3.jpg', category: 'activity',},
-    { src: 'src/pages/src/img3.jpg', category: 'farm', },
-    { src: 'src/pages/src/homeKemurnian.jpg', category: 'product', },
+    { src: '/gmbrhl2.jpg', category: 'farm',  },
+    { src: '/btl1.jpg', category: 'product',  },
+    { src: '/kg1.jpg', category: 'activity',  },
+    { src: '/gmbrhl1.jpg', category: 'farm',  },
+    { src: '/pc1.jpg', category: 'product',  },
+    { src: '/kg2.jpg', category: 'activity', },
+    { src: '/gmbrhl3.jpg', category: 'farm',},
+    { src: '/pc2.jpg', category: 'product', },
+    { src: '/kg3.jpg', category: 'activity',},
+    { src: '/img3.jpg', category: 'farm', },
+    { src: '/homeKemurnian.jpg', category: 'product', },
     { src: 'https://picsum.photos/seed/activity4/800/600', category: 'activity',  },
   ];
 
