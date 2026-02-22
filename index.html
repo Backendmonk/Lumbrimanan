@@ -5,26 +5,22 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lumbri Manan | Organic Food Supplement</title>
-    <!-- We keep Tailwind CDN for simplicity in this specific setup, 
-         but in a full production local setup you might want to install it via npm. 
-         For now, this works perfectly. -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              emerald: {
-                850: '#064e3b',
-                900: '#022c22',
-              },
-              stone: {
-                850: '#1c1917',
-              },
-              amber: {
-                450: '#f59e0b',
-              }
+              emerald: { 850: '#064e3b', 900: '#022c22' },
+              stone: { 850: '#1c1917' },
+              amber: { 450: '#f59e0b' }
             },
             fontFamily: {
               sans: ['Plus Jakarta Sans', 'sans-serif'],
@@ -35,12 +31,6 @@
       }
     </script>
     
-  
-<!-- <link rel="stylesheet" href="/index.css"> -->
-</head>
-  <body>
-    <div id="root"></div>
-    <!-- Point to the local entry file. Vite will handle the compiling. -->
-    <script type="module" src="src/index.tsx"></script>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
